@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Store" targetNamespace="http://tempuri.org/Store.xsd" xmlns:mstns="http://tempuri.org/Store.xsd" xmlns="http://tempuri.org/Store.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Store" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Store" msprop:Generator_UserDSName="Store">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Student" msprop:Generator_TableClassName="StudentDataTable" msprop:Generator_TableVarName="tableStudent" msprop:Generator_RowChangedName="StudentRowChanged" msprop:Generator_TablePropName="Student" msprop:Generator_RowDeletingName="StudentRowDeleting" msprop:Generator_RowChangingName="StudentRowChanging" msprop:Generator_RowEvHandlerName="StudentRowChangeEventHandler" msprop:Generator_RowDeletedName="StudentRowDeleted" msprop:Generator_RowClassName="StudentRow" msprop:Generator_UserTableName="Student" msprop:Generator_RowEvArgName="StudentRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NrMatricol" msprop:Generator_ColumnVarNameInTable="columnNrMatricol" msprop:Generator_ColumnPropNameInRow="NrMatricol" msprop:Generator_ColumnPropNameInTable="NrMatricolColumn" msprop:Generator_UserColumnName="NrMatricol" type="xs:string" minOccurs="0" />
+              <xs:element name="Nume" msprop:Generator_ColumnVarNameInTable="columnNume" msprop:Generator_ColumnPropNameInRow="Nume" msprop:Generator_ColumnPropNameInTable="NumeColumn" msprop:Generator_UserColumnName="Nume" type="xs:string" minOccurs="0" />
+              <xs:element name="Prenume" msprop:Generator_ColumnVarNameInTable="columnPrenume" msprop:Generator_ColumnPropNameInRow="Prenume" msprop:Generator_ColumnPropNameInTable="PrenumeColumn" msprop:Generator_UserColumnName="Prenume" type="xs:string" minOccurs="0" />
+              <xs:element name="CNP" msprop:Generator_ColumnVarNameInTable="columnCNP" msprop:Generator_ColumnPropNameInRow="CNP" msprop:Generator_ColumnPropNameInTable="CNPColumn" msprop:Generator_UserColumnName="CNP" type="xs:string" minOccurs="0" />
+              <xs:element name="Facultate" msprop:Generator_ColumnVarNameInTable="columnFacultate" msprop:Generator_ColumnPropNameInRow="Facultate" msprop:Generator_ColumnPropNameInTable="FacultateColumn" msprop:Generator_UserColumnName="Facultate" type="xs:string" minOccurs="0" />
+              <xs:element name="An" msprop:Generator_ColumnVarNameInTable="columnAn" msprop:Generator_ColumnPropNameInRow="An" msprop:Generator_ColumnPropNameInTable="AnColumn" msprop:Generator_UserColumnName="An" type="xs:short" minOccurs="0" />
+              <xs:element name="IDmaterie" msprop:Generator_ColumnVarNameInTable="columnIDmaterie" msprop:Generator_ColumnPropNameInRow="IDmaterie" msprop:Generator_ColumnPropNameInTable="IDmaterieColumn" msprop:Generator_UserColumnName="IDmaterie" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Facultate" msprop:Generator_TableClassName="FacultateDataTable" msprop:Generator_TableVarName="tableFacultate" msprop:Generator_TablePropName="Facultate" msprop:Generator_RowDeletingName="FacultateRowDeleting" msprop:Generator_RowChangingName="FacultateRowChanging" msprop:Generator_RowEvHandlerName="FacultateRowChangeEventHandler" msprop:Generator_RowDeletedName="FacultateRowDeleted" msprop:Generator_UserTableName="Facultate" msprop:Generator_RowChangedName="FacultateRowChanged" msprop:Generator_RowEvArgName="FacultateRowChangeEvent" msprop:Generator_RowClassName="FacultateRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDfacultate" msprop:Generator_ColumnVarNameInTable="columnIDfacultate" msprop:Generator_ColumnPropNameInRow="IDfacultate" msprop:Generator_ColumnPropNameInTable="IDfacultateColumn" msprop:Generator_UserColumnName="IDfacultate" type="xs:string" minOccurs="0" />
+              <xs:element name="NumeFacultate" msprop:Generator_ColumnVarNameInTable="columnNumeFacultate" msprop:Generator_ColumnPropNameInRow="NumeFacultate" msprop:Generator_ColumnPropNameInTable="NumeFacultateColumn" msprop:Generator_UserColumnName="NumeFacultate" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Profesor" msprop:Generator_TableClassName="ProfesorDataTable" msprop:Generator_TableVarName="tableProfesor" msprop:Generator_TablePropName="Profesor" msprop:Generator_RowDeletingName="ProfesorRowDeleting" msprop:Generator_RowChangingName="ProfesorRowChanging" msprop:Generator_RowEvHandlerName="ProfesorRowChangeEventHandler" msprop:Generator_RowDeletedName="ProfesorRowDeleted" msprop:Generator_UserTableName="Profesor" msprop:Generator_RowChangedName="ProfesorRowChanged" msprop:Generator_RowEvArgName="ProfesorRowChangeEvent" msprop:Generator_RowClassName="ProfesorRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDprofesor" msprop:Generator_ColumnVarNameInTable="columnIDprofesor" msprop:Generator_ColumnPropNameInRow="IDprofesor" msprop:Generator_ColumnPropNameInTable="IDprofesorColumn" msprop:Generator_UserColumnName="IDprofesor" type="xs:string" minOccurs="0" />
+              <xs:element name="Nume" msprop:Generator_ColumnVarNameInTable="columnNume" msprop:Generator_ColumnPropNameInRow="Nume" msprop:Generator_ColumnPropNameInTable="NumeColumn" msprop:Generator_UserColumnName="Nume" type="xs:string" minOccurs="0" />
+              <xs:element name="IDmaterie" msprop:Generator_ColumnVarNameInTable="columnIDmaterie" msprop:Generator_ColumnPropNameInRow="IDmaterie" msprop:Generator_ColumnPropNameInTable="IDmaterieColumn" msprop:Generator_UserColumnName="IDmaterie" type="xs:string" minOccurs="0" />
+              <xs:element name="IDfacultate" msprop:Generator_ColumnVarNameInTable="columnIDfacultate" msprop:Generator_ColumnPropNameInRow="IDfacultate" msprop:Generator_ColumnPropNameInTable="IDfacultateColumn" msprop:Generator_UserColumnName="IDfacultate" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Materie" msprop:Generator_TableClassName="MaterieDataTable" msprop:Generator_TableVarName="tableMaterie" msprop:Generator_TablePropName="Materie" msprop:Generator_RowDeletingName="MaterieRowDeleting" msprop:Generator_RowChangingName="MaterieRowChanging" msprop:Generator_RowEvHandlerName="MaterieRowChangeEventHandler" msprop:Generator_RowDeletedName="MaterieRowDeleted" msprop:Generator_UserTableName="Materie" msprop:Generator_RowChangedName="MaterieRowChanged" msprop:Generator_RowEvArgName="MaterieRowChangeEvent" msprop:Generator_RowClassName="MaterieRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDmaterie" msprop:Generator_ColumnVarNameInTable="columnIDmaterie" msprop:Generator_ColumnPropNameInRow="IDmaterie" msprop:Generator_ColumnPropNameInTable="IDmaterieColumn" msprop:Generator_UserColumnName="IDmaterie" type="xs:string" minOccurs="0" />
+              <xs:element name="Denumire" msprop:Generator_ColumnVarNameInTable="columnDenumire" msprop:Generator_ColumnPropNameInRow="Denumire" msprop:Generator_ColumnPropNameInTable="DenumireColumn" msprop:Generator_UserColumnName="Denumire" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:Student" />
+      <xs:field xpath="mstns:NrMatricol" />
+    </xs:unique>
+    <xs:unique name="Constraint2">
+      <xs:selector xpath=".//mstns:Student" />
+      <xs:field xpath="mstns:CNP" />
+    </xs:unique>
+    <xs:unique name="Facultate_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:Facultate" />
+      <xs:field xpath="mstns:IDfacultate" />
+    </xs:unique>
+    <xs:unique name="Profesor_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:Profesor" />
+      <xs:field xpath="mstns:IDprofesor" />
+    </xs:unique>
+    <xs:unique name="Profesor_Constraint2" msdata:ConstraintName="Constraint2">
+      <xs:selector xpath=".//mstns:Profesor" />
+      <xs:field xpath="mstns:IDmaterie" />
+    </xs:unique>
+    <xs:unique name="Constraint3">
+      <xs:selector xpath=".//mstns:Profesor" />
+      <xs:field xpath="mstns:IDfacultate" />
+    </xs:unique>
+    <xs:unique name="Materie_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:Materie" />
+      <xs:field xpath="mstns:IDmaterie" />
+    </xs:unique>
+    <xs:keyref name="FK_Profesor_Materie" refer="Materie_Constraint1" msprop:rel_Generator_UserChildTable="Profesor" msprop:rel_Generator_ChildPropName="GetProfesorRows" msprop:rel_Generator_UserRelationName="FK_Profesor_Materie" msprop:rel_Generator_RelationVarName="relationFK_Profesor_Materie" msprop:rel_Generator_UserParentTable="Materie" msprop:rel_Generator_ParentPropName="MaterieRow">
+      <xs:selector xpath=".//mstns:Profesor" />
+      <xs:field xpath="mstns:IDmaterie" />
+    </xs:keyref>
+    <xs:keyref name="FK_Facultate_Profesor1" refer="Facultate_Constraint1" msprop:rel_Generator_UserChildTable="Profesor" msprop:rel_Generator_ChildPropName="GetProfesorRows" msprop:rel_Generator_UserRelationName="FK_Facultate_Profesor1" msprop:rel_Generator_ParentPropName="FacultateRow" msprop:rel_Generator_RelationVarName="relationFK_Facultate_Profesor1" msprop:rel_Generator_UserParentTable="Facultate">
+      <xs:selector xpath=".//mstns:Profesor" />
+      <xs:field xpath="mstns:IDfacultate" />
+    </xs:keyref>
+    <xs:keyref name="FK_Materie_Student" refer="Materie_Constraint1" msprop:rel_Generator_UserChildTable="Student" msprop:rel_Generator_ChildPropName="GetStudentRows" msprop:rel_Generator_UserRelationName="FK_Materie_Student" msprop:rel_Generator_RelationVarName="relationFK_Materie_Student" msprop:rel_Generator_UserParentTable="Materie" msprop:rel_Generator_ParentPropName="MaterieRow">
+      <xs:selector xpath=".//mstns:Student" />
+      <xs:field xpath="mstns:IDmaterie" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
