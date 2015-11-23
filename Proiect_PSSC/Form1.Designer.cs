@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox_nr = new System.Windows.Forms.TextBox();
+            this.textBox_nume = new System.Windows.Forms.TextBox();
+            this.textBox_prenume = new System.Windows.Forms.TextBox();
+            this.textBox_cnp = new System.Windows.Forms.TextBox();
+            this.textBox_facultate = new System.Windows.Forms.TextBox();
+            this.textBox_an = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -65,47 +65,47 @@
             ((System.ComponentModel.ISupportInitialize)(this.materieBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBox_nr
             // 
-            this.textBox1.Location = new System.Drawing.Point(82, 21);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.textBox_nr.Location = new System.Drawing.Point(82, 21);
+            this.textBox_nr.Name = "textBox_nr";
+            this.textBox_nr.Size = new System.Drawing.Size(100, 20);
+            this.textBox_nr.TabIndex = 0;
             // 
-            // textBox2
+            // textBox_nume
             // 
-            this.textBox2.Location = new System.Drawing.Point(82, 48);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
+            this.textBox_nume.Location = new System.Drawing.Point(82, 48);
+            this.textBox_nume.Name = "textBox_nume";
+            this.textBox_nume.Size = new System.Drawing.Size(100, 20);
+            this.textBox_nume.TabIndex = 1;
             // 
-            // textBox3
+            // textBox_prenume
             // 
-            this.textBox3.Location = new System.Drawing.Point(82, 75);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 2;
+            this.textBox_prenume.Location = new System.Drawing.Point(82, 75);
+            this.textBox_prenume.Name = "textBox_prenume";
+            this.textBox_prenume.Size = new System.Drawing.Size(100, 20);
+            this.textBox_prenume.TabIndex = 2;
             // 
-            // textBox4
+            // textBox_cnp
             // 
-            this.textBox4.Location = new System.Drawing.Point(82, 101);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 3;
+            this.textBox_cnp.Location = new System.Drawing.Point(82, 101);
+            this.textBox_cnp.Name = "textBox_cnp";
+            this.textBox_cnp.Size = new System.Drawing.Size(100, 20);
+            this.textBox_cnp.TabIndex = 3;
             // 
-            // textBox5
+            // textBox_facultate
             // 
-            this.textBox5.Location = new System.Drawing.Point(82, 127);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 4;
+            this.textBox_facultate.Location = new System.Drawing.Point(82, 127);
+            this.textBox_facultate.Name = "textBox_facultate";
+            this.textBox_facultate.Size = new System.Drawing.Size(100, 20);
+            this.textBox_facultate.TabIndex = 4;
             // 
-            // textBox7
+            // textBox_an
             // 
-            this.textBox7.Location = new System.Drawing.Point(82, 156);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 6;
+            this.textBox_an.Location = new System.Drawing.Point(82, 156);
+            this.textBox_an.Name = "textBox_an";
+            this.textBox_an.Size = new System.Drawing.Size(100, 20);
+            this.textBox_an.TabIndex = 6;
             // 
             // label1
             // 
@@ -173,16 +173,16 @@
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox_nr);
+            this.groupBox1.Controls.Add(this.textBox_nume);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.textBox_prenume);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.textBox_cnp);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.textBox_facultate);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.textBox_an);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(222, 295);
@@ -311,7 +311,7 @@
             this.btnAddData.Name = "btnAddData";
             this.btnAddData.Size = new System.Drawing.Size(142, 61);
             this.btnAddData.TabIndex = 17;
-            this.btnAddData.Text = "Adauga date text";
+            this.btnAddData.Text = "Adauga date test";
             this.btnAddData.UseVisualStyleBackColor = true;
             this.btnAddData.Click += new System.EventHandler(this.btnAddData_Click);
             // 
@@ -338,12 +338,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox_nr;
+        private System.Windows.Forms.TextBox textBox_nume;
+        private System.Windows.Forms.TextBox textBox_prenume;
+        private System.Windows.Forms.TextBox textBox_cnp;
+        private System.Windows.Forms.TextBox textBox_facultate;
+        private System.Windows.Forms.TextBox textBox_an;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

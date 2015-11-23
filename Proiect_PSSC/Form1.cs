@@ -57,7 +57,12 @@ namespace Proiect_PSSC
         private void button1_Click(object sender, EventArgs e)
         {
             DataRow studentRow = store.Student.NewRow();
-            studentRow()
+            studentRow["NrMatricol"] = textBox_nr.Text;
+            studentRow["Nume"] = textBox_nume.Text;
+            studentRow["Prenume"] = textBox_prenume.Text;
+            studentRow["CNP"] = textBox_cnp.Text;
+            studentRow["Facultate"] = textBox_an.Text;
+
         }
     }
 }
